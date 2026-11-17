@@ -1,0 +1,12 @@
+# Keep the public developer site accessible to Google's app-ads.txt crawlers.
+User-agent: Google-adstxt
+Disallow:
+
+User-agent: Mediapartners-Google
+Disallow:
+
+User-agent: Googlebot
+Disallow:
+
+User-agent: *
+Disallow:
